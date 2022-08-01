@@ -18,9 +18,11 @@ import bootstrap from "../assets/svg/skills/bootstrap.svg";
 import bulma from "../assets/svg/skills/bulma.svg";
 import capacitorjs from "../assets/svg/skills/capacitorjs.svg";
 import coffeescript from "../assets/svg/skills/coffeescript.svg";
+import express from "../assets/svg/skills/express.svg";
 import memsql from "../assets/svg/skills/memsql.svg";
 import mongoDB from "../assets/svg/skills/mongoDB.svg";
 import mysql from "../assets/svg/skills/mysql.svg";
+import nodejs from "../assets/svg/skills/nodejs.svg";
 import postgresql from "../assets/svg/skills/postgresql.svg";
 import tailwind from "../assets/svg/skills/tailwind.svg";
 import vitejs from "../assets/svg/skills/vitejs.svg";
@@ -92,6 +94,8 @@ export const skillsImage = (skill) => {
       return adobeXd;
     case "after effects":
       return afterEffects;
+    case "express":
+      return express;
     case "css":
       return css;
     case "angular":
@@ -124,6 +128,8 @@ export const skillsImage = (skill) => {
       return mongoDB;
     case "mysql":
       return mysql;
+    case "nodejs":
+      return nodejs;
     case "postgresql":
       return postgresql;
     case "tailwind":
