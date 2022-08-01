@@ -2,6 +2,8 @@ import one from "../assets/svg/projects/one.png";
 import two from "../assets/svg/projects/two.png";
 import three from "../assets/svg/projects/three.png";
 import four from "../assets/svg/projects/four.png";
+import five from "../assets/svg/projects/five.png";
+import six from "../assets/svg/projects/six.png";
 
 export const projectsData = [
   {
@@ -44,19 +46,24 @@ export const projectsData = [
     demo: "https://my-coding-journal-ruddy.vercel.app/",
     image: four,
   },
+  {
+    id: 5,
+    projectName: "dotDesign",
+    projectDesc:
+      "Our Project is a UI/UX Design Website. The main goal of the dotdesign is to offer our services to clients who need to build application/website that are user-friendly. Our portfolios are linked to showcase our skillsets.",
+    tags: ["ReactJS", "CSS", "Materia UI"],
+    code: "https://github.com/Jessy-G26/dotDesign",
+    demo: "https://dot-design.vercel.app/",
+    image: five,
+  },
+  {
+    id: 6,
+    projectName: "OutPlace - Hotel Booking",
+    projectDesc:
+      "A hotel booking web application developed using MERN stack, Context API, JWT, custom hooks, and MUI that has a separate dashboard for users and admin.",
+    tags: ["ReactJS", "CSS", "Bootstrap"],
+    code: "https://github.com/Jessy-G26/outplace",
+    demo: "http://18.140.10.100:3000/",
+    image: six,
+  },
 ];
-
-// Do not remove any fields.
-// Leave it blank instead as shown below
-
-/* 
-{
-    id: 1,
-    projectName: 'Car Pooling System',
-    projectDesc: '',
-    tags: ['Flutter', 'React'],
-    code: '',
-    demo: '',
-    image: ''
-}, 
-*/
