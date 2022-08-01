@@ -116,12 +116,12 @@ function Contacts() {
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.email}</p>
             </a>
-            <a href={`tel:${contactsData.phone}`} className="personal-details">
+            {/* <a href={`tel:${contactsData.phone}`} className="personal-details">
               <div className={classes.detailsIcon}>
                 <FiPhone />
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.phone}</p>
-            </a>
+            </a> */}
             <div className="personal-details">
               <div className={classes.detailsIcon}>
                 <HiOutlineLocationMarker />
